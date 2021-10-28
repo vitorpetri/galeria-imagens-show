@@ -29,7 +29,7 @@ export const theme = extendTheme({
     },
     Button: {
       defaultProps: {
-        colorScheme: 'whiteAlpha',
+        colorScheme: 'blue',
       },
     },
   },
