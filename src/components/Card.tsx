@@ -27,7 +27,7 @@ export function Card({ data, viewImage }: CardProps): JSX.Element {
     <Box
       key={data.ts}
       borderRadius="md"
-      bgColor="yellow"
+      bgColor="bgcolor"
       display="flex"
       alignItems="center"
       textAlign="center"

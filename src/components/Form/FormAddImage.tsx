@@ -140,7 +140,8 @@ export function FormAddImage({ closeModal }: FormAddImageProps): JSX.Element {
         type="submit"
         w="100%"
         py={6}
-        bgColor="pGray.900"
+        color="textinput"
+        bgColor="textcolor"
       >
         Enviar
       </Button>

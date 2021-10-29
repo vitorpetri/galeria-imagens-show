@@ -31,13 +31,13 @@ const TextInputBase: ForwardRefRenderFunction<HTMLInputElement, InputProps> = (
         name={name}
         ref={ref}
         borderColor="transparent"
-        bgColor="pGray.800"
-        color="pGray.50"
+        bgColor="input"
+        color="textinput"
         _placeholder={{
-          color: 'pGray.200',
+          color: 'textinput',
         }}
         _hover={{
-          borderColor: 'orange.400',
+          borderColor: 'border',
         }}
         py={6}
         pr={8}

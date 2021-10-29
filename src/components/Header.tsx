@@ -7,7 +7,7 @@ export function Header(): JSX.Element {
 
   return (
     <>
-      <Box bgColor="yellow">
+      <Box bgColor="bgcolor">
         <Flex
           justifyContent="space-between"
           alignItems="center"
@@ -22,8 +22,8 @@ export function Header(): JSX.Element {
           </a>
           <Button
             marginTop="6"
-            color="pGray.50"
-            bgColor="pGray.900"
+            color="bgcolor"
+            bgColor="textcolor"
             onClick={() => onOpen()}
           >
             Adicionar imagem

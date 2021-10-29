@@ -10,7 +10,7 @@ export function Error(): JSX.Element {
     >
       <Heading>Infelizmente ocorreu um erro =(</Heading>
       <Button
-        color="pGray.900"
+        color="bgcolor"
         py={6}
         onClick={() => window.location.reload()}
         mt={4}

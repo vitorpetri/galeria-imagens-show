@@ -10,13 +10,7 @@ export function Loading(): JSX.Element {
     >
       <Box>
         <Heading>Galeria de Imagens Show...</Heading>
-        <Progress
-          mt={4}
-          size="xs"
-          isIndeterminate
-          bgColor="transparent"
-          colorScheme="blue"
-        />
+        <Progress mt={4} size="xs" isIndeterminate bgColor="transparent" />
       </Box>
     </Flex>
   );
