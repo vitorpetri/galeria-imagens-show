@@ -60,6 +60,7 @@ export default function Home(): JSX.Element {
 
   return (
     <>
+  <div id="vanta-canvas" />
       <Header />
 
       <Box display="flex" alignItems="center" textAlign="center" flexDirection="column" maxW={1500} px={[10, 15, 20]} mx="auto" my={[10, 15, 20]}>
@@ -71,6 +72,10 @@ export default function Home(): JSX.Element {
           </Button>
         )}
       </Box>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" />
+      <script src="./vanta.js" />
     </>
   );
 }
