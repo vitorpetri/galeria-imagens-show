@@ -73,8 +73,8 @@ export default function Home(): JSX.Element {
         )}
       </Box>
 
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r127/three.min.js" />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js" />
+      <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js" />
       <script src="./vanta.js" />
     </>
   );
