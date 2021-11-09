@@ -10,6 +10,11 @@ export function Header(): JSX.Element {
       <Box bgColor="bgcolor">
         <Flex
           justifyContent="space-between"
+          sx={{
+            '@media (max-width: 780px)': {
+              justifyContent: 'center',
+            },
+          }}
           alignItems="center"
           maxW={1500}
           mx="auto"

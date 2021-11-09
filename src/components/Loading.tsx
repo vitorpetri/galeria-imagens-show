@@ -7,6 +7,7 @@ export function Loading(): JSX.Element {
       alignItems="center"
       h="100vh"
       flexDir="column"
+      textAlign="center"
     >
       <Box>
         <Heading>Galeria de Imagens Show...</Heading>

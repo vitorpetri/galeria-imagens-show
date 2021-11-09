@@ -32,6 +32,10 @@ export function Card({ data, viewImage }: CardProps): JSX.Element {
       alignItems="center"
       textAlign="center"
       flexDirection="column"
+      transition="350ms"
+      _hover={{
+        transform: 'scale(0.98)',
+      }}
     >
       <Skeleton isLoaded={!isLoading}>
         <Image

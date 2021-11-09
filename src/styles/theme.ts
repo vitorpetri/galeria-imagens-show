@@ -11,7 +11,7 @@ export const theme = extendTheme({
   },
   fonts: {
     heading: 'Space Grotesk',
-    body: 'sans-serif',
+    body: 'Inter',
   },
   components: {
     Text: {
