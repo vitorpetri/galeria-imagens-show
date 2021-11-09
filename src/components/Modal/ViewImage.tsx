@@ -29,7 +29,7 @@ export function ModalViewImage({
         maxW={['300px', '500px', '900px']}
         maxH={['350px', '450px', '600px']}
       >
-        <ModalBody p="0">
+        <ModalBody p="0" bg="border">
           <Image
             src={imgUrl}
             maxW={['300px', '500px', '900px']}
@@ -37,7 +37,13 @@ export function ModalViewImage({
           />
         </ModalBody>
         <ModalFooter bg="bgcolor" h="2rem" py="20px" borderBottomRadius="5px">
-          <Link href={imgUrl} isExternal fontSize="1rem" mr="auto">
+          <Link
+            href={imgUrl}
+            isExternal
+            fontSize="1rem"
+            fontWeight="bold"
+            mr="auto"
+          >
             Abrir original
           </Link>
         </ModalFooter>
