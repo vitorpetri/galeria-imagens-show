@@ -26,11 +26,6 @@
 
 Para ter uma cópia local instalada e funcionando, siga estas etapas simples.
 
-### Prerequisitos
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 1. Clonar o repositório
    ```sh
    git clone https://github.com/vitorpetri/galeria-imagens-show.git
