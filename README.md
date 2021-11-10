@@ -49,7 +49,6 @@ Para ter uma cópia local instalada e funcionando, siga estas etapas simples.
    npm run dev
    ```
 
-_Homepage Imagens Show [Documentation](https://github.com/vitorpetri/imagens-show)_
-_Galeria Imagens Show [Documentation](https://github.com/vitorpetri/galeria-imagens-show)_
+Homepage Imagens Show [Documentation](https://github.com/vitorpetri/imagens-show)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
