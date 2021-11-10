@@ -36,8 +36,8 @@ Para ter uma cópia local instalada e funcionando, siga estas etapas simples.
    ```
 4. Usar a sua API `.env.local`
    ```txt
-    NEXT_PUBLIC_IMGBB_API_KEY=9766ef3c36d7b88eac53de43fce9add5
-    FAUNA_API_KEY=fnAEWn9xjCACUaHMVhVvHyJthcGvEPGWPAonTG-t
+    NEXT_PUBLIC_IMGBB_API_KEY= Sua Chave
+    FAUNA_API_KEY= Sua Chave
    ```
 5. Iniciar o projeto
    ```sh
